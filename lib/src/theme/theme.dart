@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 final theme = ThemeData(
-  primarySwatch: Colors.white.createMaterialColor(),
+  primarySwatch: const Color.fromRGBO(255, 255, 255, 100).createMaterialColor(),
   textTheme: const TextTheme(
     bodyLarge: TextStyle(
         color: Color.fromRGBO(0, 0, 0, 1),
-        fontWeight: FontWeight.w600,
+        fontWeight: FontWeight.w700,
         fontSize: 32),
     bodyMedium: TextStyle(
         color: Color.fromRGBO(0, 0, 0, 1),
